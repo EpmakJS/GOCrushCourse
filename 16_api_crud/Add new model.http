@@ -1,28 +1,28 @@
-PUT http://localhost:10000/update-product/1
-Content-Type: application/json
-
-{
-  "model": "iPhone 11 Pro",
-  "company": "Apple",
-  "price": 150000
-}
-
-###
-GET http://localhost:10000/get-product/1
-Accept: application/json
+#PUT http://localhost:10000/update-product/1
+#Content-Type: application/json
+#
+#{
+#  "model": "iPhone 11 Pro",
+#  "company": "Apple",
+#  "price": 150000
+#}
+#
+####
+#GET http://localhost:10000/get-product/1
+#Accept: application/json
 
 ###
 GET http://localhost:10000/get-all-products
 Accept: application/json
 
 ###
-POST http://localhost:10000/add-product
-Content-Type: application/json
-
-{
-  "model": "Galaxy S20",
-  "company": "Samsung",
-  "price": 120000
-}
+#POST http://localhost:10000/add-product
+#Content-Type: application/json
+#
+#{
+#  "model": "Galaxy S20",
+#  "company": "Samsung",
+#  "price": 120000
+#}
 
 ###
